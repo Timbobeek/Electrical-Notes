@@ -1,0 +1,32 @@
+Servo motors have three wires: power, ground, and signal.
+The power wire is typically red, and should be connected to the 5V pin on the Arduino board. 
+The ground wire is typically black or brown and should be connected to a ground pin on the board. 
+The signal pin is typically yellow or orange and should be connected to PWM pin on the board. In these examples, it is pin number 9.
+
+Arduino Vin pins can work in a dual way. 
+This pin can provide Arduino boards with input regulated voltage supply OR can act as a power source for external peripherals attached to Arduino boards.
+
+Although 3V3 and 5V pins can be used as power inputs, it is not recommended if no power supply is connected through the USB port, the barrel jack connector, or the VIN pin.
+
+Arduino Nano VIN voltage = 7-12v 
+
+Arduino boards have five options in which they can be powered:
+
+  1.Powering via USB connector
+  2.Powering via the onboard barrel jack connector (if available on the board)
+  3.Powering via the onboard battery connector (if available on the board)
+  4.Powering via the VIN (Voltage In) pin
+  5. Powering via the 3V3/5V pin*
+  
+In electronics and electrical engineering, it is by convention we define a point in a circuit as a reference point. 
+This reference point is known as ground (or GND) and carries a voltage of 0V. 
+
+The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems.
+SPI stands for the Serial Peripheral Interface. It is a serial communication protocol that is used to connect low-speed devices.
+
+Grove Sppech Recognition wires:
+-black is ground
+-red is to 5v
+-yellow to pin 2
+-white to pin 3
+
